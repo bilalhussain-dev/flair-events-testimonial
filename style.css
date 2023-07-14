@@ -248,8 +248,13 @@ body {
   .container {
     display: flex;
     flex-wrap: wrap;
-   
     margin: 70px auto;
+  }
+
+  .container-mobile-two {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px auto;
   }
   
   .column {
@@ -319,6 +324,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px auto;
   }
   .mobile--grid .btn-grid {
     padding: 10px 20px;
